@@ -1,0 +1,64 @@
+:root{
+    --color-1:#24353F;
+    --color-2:#17A2B8;
+}
+.bg-one{
+    background-color: var(--color-1);
+}
+.bg-rwo{
+    background-color: var(--color-2);
+}
+.text-two{
+    color: var(--color-2);
+}
+.shadow-special{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);;
+}
+.titillium{
+    font-family: "Titillium Web", serif;
+}
+/* navbar */
+#log-out{
+    background-color: transparent;
+    color: #ccc;
+    border: 1px solid #FFC107;
+    transition: 0.3s;
+}
+#log-out:hover{
+    background-color: #FFC107;
+    color: white;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.navbar-toggler-icon{
+    background-image: none;
+}
+/* home */
+@media (min-width: 1200px) { 
+    #home .container{
+        padding-left: 150px !important;
+        padding-right: 150px !important;
+    }
+ }
+/* sign-up */
+@media (min-width: 1200px) { 
+    #sign-up, #sign-in{
+        padding-left: 150px !important;
+        padding-right: 150px !important;
+    }
+ }
+ #sign-up input:focus, #sign-in input:focus{
+    outline: none;
+    border-color: #17A2B8 !important;
+ }
+ #sign-up button, #sign-in button{
+    border-color: #17A2B8 !important;
+ }
+ #sign-up button:hover , #sign-in button:hover{
+    background-color: #17A2B8 !important;
+    color: white !important;
+ }
+ #sign-up p a:hover , #sign-in p a:hover{
+    text-decoration: underline !important;
+ }
